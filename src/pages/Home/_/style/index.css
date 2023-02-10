@@ -1,0 +1,11 @@
+.container {
+    width: calc(100% - 2rem);
+    margin: 2rem;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: calc(100% - 4rem);
+        margin: 2rem;
+    }
+}
